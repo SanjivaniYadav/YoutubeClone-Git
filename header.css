@@ -1,0 +1,268 @@
+header{
+    height: 70px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+
+.left-side{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 20px;
+    margin-left: 18px;
+}
+
+.hamburger-menu,
+.youtube,
+.search-lense,
+.voice-search,
+.create-icon,
+.notification-icon,
+.account:hover{
+    cursor: pointer;
+}
+
+.hamburger-menu{
+    margin-right: 10px;
+    width: 28px;
+}
+
+.hamburger-button{
+    border: none;
+    vertical-align: middle;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+
+
+.hamburger-button:active{
+    background-color: rgb(247, 247, 247);
+}
+
+.youtube{
+    width: 107px; 
+}
+
+.tooltip-sec:hover .tooltip{
+    opacity: 1;
+   
+}
+
+
+.middle-side{
+    margin-right: 3px;
+    display: flex;
+    flex: 1;
+    max-width: 700px;
+    align-items: center;
+}
+
+.search-bar{
+    font-size: 16px;
+    padding-left: 20px;
+    height: 37px;
+    width: 520px;
+    border-radius: 22px 0 0 22px;
+    border: 0.15px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    box-shadow:inset 1px 2px 3px rgba(0,0,0,0.05)
+}
+
+.search-bar::placeholder{
+    font-family: roboto, arial, sans-serif;
+    font-size: 16px;
+    color: rgb(146, 146, 146);
+}
+
+.search-lense{
+    width: 65px;
+    height: 41px;
+    border: 0.15px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
+    border-radius: 0 22px 22px 0;
+    background-color: rgb(248, 246, 246);
+}
+
+.search-lense-icon{
+    width: 25px;
+    height: 30px;
+    object-fit: cover;
+   margin-top: 3px;
+}
+
+
+.notification-section,
+.create-tooltip-sec,
+.voice-search-tooltip-sec,
+.Search-tooltip-sec{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voice-tooltip,
+.search-tooltip{
+    white-space: nowrap;
+    pointer-events: none;
+    position: absolute;
+    bottom: -55px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    font-size: 12.5px;
+    padding: 10px 7px;
+    border-radius: 3px;
+    opacity: 0;
+}
+
+
+.voice-tooltip{
+    left: -50px;
+}
+
+.notification-section:hover .notification-tooltip,
+.create-tooltip-sec:hover .create-tooltip,
+.voice-search-tooltip-sec:hover .voice-tooltip,
+.Search-tooltip-sec:hover .search-tooltip{
+    opacity: 1;
+}
+
+
+.voice-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(252, 252, 252);
+    border: none;
+    border-radius: 100%;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.voice-search-img{
+    width: 23px;
+    object-fit: cover;
+}
+
+.right-side{
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: top;
+
+}
+.create-icon{
+    width: 25px;
+    margin-right: 20px;
+}
+
+
+.notification-tooltip,
+.create-tooltip{
+    white-space: nowrap;
+    pointer-events: none;
+    position: absolute;
+    bottom: -63px;
+    left: -10px;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    font-size: 12.5px;
+    padding: 10px 7px;
+    border-radius: 3px;
+    opacity: 0;
+}
+
+.notification-tooltip{
+    bottom: -65px;
+    left: -20px;
+}
+
+.notification-icon{
+    width: 22px;
+}
+
+.account{
+    font-size: 500;
+    color: white;
+    background-color: rgb(240, 15, 154);
+    border-radius: 100%;
+    padding: 7px 11px;
+    margin-left: 20px;
+}
+
+.notification-section{
+    position: relative;
+}
+
+.notifications{
+    position: absolute;
+    top: -4px;
+    right: -5px;
+    background-color: rgb(194, 14, 14);
+    border-radius: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 1px 5px;
+}
+
+
+.secondary-header{
+    padding-left: 15px;
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    top: 65px;
+    left: 70px;
+    height: 60px;
+    right: 0;
+    background-color: white;
+}
+
+.secondary-header .btns{
+    white-space: nowrap;
+    border-radius: 8px;
+    padding: 7px 12px;
+    margin: 12px 12px 12px 0;
+    color: rgb(35, 35, 35);
+    background-color: rgba(223, 223, 223, 0.867);
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+}
+
+.btns:active{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btns1{
+    border-radius: 8px;
+    padding: 7px 12px;
+    margin: 12px 12px 12px 0;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}

@@ -1,0 +1,53 @@
+.sidebar{
+    display: grid;
+    grid-template-rows: 90px 60px 80px 50px;
+    position: fixed;
+    width: 70px;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    z-index: 200;
+}
+
+.sidebar p{
+    margin: 0;
+    font-size: 10px;
+}
+
+.home-sec p,
+.lib-sec p{
+    margin-left: 19px;
+    margin-top: 2px;
+}
+
+
+.shorts-sec p{
+    margin-top: 11px;
+    margin-left: 18px;
+}
+
+.sub-sec p{
+    margin-left: 5px;
+}
+
+.home-icon{
+    margin-top: 10px;
+    width: 40px;
+    margin-left: 15px;
+}
+
+.shorts-icon{
+    width: 20px;
+    margin-left: 25px;
+}
+
+.sub-icon{
+    width: 43px;
+    margin-left: 13px;
+}
+
+.lib-icon{
+    margin-left: 13px;
+    width: 43px;
+}
