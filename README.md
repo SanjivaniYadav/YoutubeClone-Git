@@ -1,4 +1,4 @@
-#Starter To Frontend
+# Starter To Frontend
 This is a simple stater to my Frontend journey. 
 It uses only HTML and css.
 I have given some special hover effects,
